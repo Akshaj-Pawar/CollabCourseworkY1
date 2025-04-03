@@ -4,12 +4,12 @@ We wanted to pitch our idea at the Blueprint startup competition and secure reso
 
 In advance of the pitch we spent most of our time hashing out business decisions, and via a combination of wider reading and one to one support from the adventure lab we were able to set precise goals for what we want to achieve.
 * FInd a way to access user blood glucose data
-* We must design a way for users to input contextual data, which can be read by the alogorithm. (Basal rates are effected by many factors, but for simplicity we will start by considering exercise rate)
-* We will design a method for training an LLM to respond appropriately to the inputs (we will restrict potential outputs to just increase rate, decrease rate, ignore for the initial stage). If we see improvement over time this indicates our method is sound and we might try to train the model to repsond in more sophisticated ways later. 
+* We must design a way for users to input contextual data, which can be read by the alogorithm. (Basal rates are effected by many factors, but for simplicity we will start by considering excercise rate)
+* We will design a method for training an LLM to respond appropriately to the inputs (we will restrict potential outputs to just increase rate, decrease rate, ignore for the initial stage). If we see improvement over time this indicates our method is sound and we might try to train the model to respond in more sophisticated ways later. 
 * Eventually we will need larger datasets, but for now we'll use toy data mixed with data donated by my co-founder
 * We will need to design safety evaluations to verify that the model is making decision based on sound medical principles (for example, there should be strong correlation between exercise and basal rate increment)
 
-This week helped me understand how to use AI in business applications, in particular a 1-1 conversation helped clarify my legal and ethical obligations that have influenced our algorithm design. I've learned a bit about teh wider AI economy and how small businesses are using it. Supplimented udnerstanding by attending talks about AI safety-evaluation and reading Basic Ai by David L Shrier.
+This week helped me understand how to use AI in business applications, in particular a 1-1 conversation helped clarify my legal and ethical obligations that have influenced our algorithm design. I've learned a bit about teh wider AI economy and how small businesses are using it. Supplimented understanding by attending talks about AI safety-evaluation and reading Basic Ai by David L Shrier.
 Time was spent conducting market research and preparing the pitch. 
 
 In terms of technical progress:
